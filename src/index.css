@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.subtitle {
+  font-family: 'Courgette', cursive;
+}
+
+/* home style */
+.profilphoto {
+  width: 450px;
+  height: 450px;
+}
+
+/* home animation */
+.animation {
+  width: 18ch;
+  animation: typing 5s steps(19) infinite reverse;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Project Style */
+
+.projectcardImage {
+  background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20221123153249/SkillsRequiredtoBecomeaBackendDeveloper.png);
+}
+
+.giyimtekImage {
+  background-image: url(./assets/images/giyimtek.png);
+}
+
+.employeeProjectImage {
+  background-image: url(./assets/images/employeeProject.png);
+}
+
+.projectcard {
+  background-position: top;
+  background-size: cover;
+  min-height: 200px;
+  box-shadow: 2px 2px 3px #8f8e8e;
+  transition: all ease-in 0.5s;
+}
+
+.projectcard:hover {
+  transition: all ease-in 0.5s;
+  transform: scale(1.1);
+  margin: auto;
+}
+
+/* Skills style */
+.ul-display {
+  display: none;
+}
+
+.div-hover:hover .ul-display {
+  display: block;
+}
