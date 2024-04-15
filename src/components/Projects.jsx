@@ -65,6 +65,34 @@ const Projects = () => {
           </div>
         </a>
       </div>
+      <div data-aos='fade-up' className='grid md:grid-cols-2 relative gap-20'>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://github.com/KutluhanAkarcesme/MVCBlogProject'
+        >
+          <div className='flex text-sky-50 font-semibold rounded-xl projectcard projectcardImage cursor-pointer'>
+            <div className='my-auto mx-auto rounded-lg p-3 bg-neutral-300/40 backdrop-blur-xl hover:bg-neutral-500/40'>
+              <h2 className='text-2xl text-neutral-800 font-semibold'>
+                MVCBlogProject
+              </h2>
+            </div>
+          </div>
+        </a>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://github.com/KutluhanAkarcesme/BlazorEksiSozlukClone'
+        >
+          <div className='flex text-sky-50 font-semibold rounded-xl projectcard projectcardImage cursor-pointer'>
+            <div className='my-auto mx-auto rounded-lg p-3 bg-neutral-300/40 backdrop-blur-xl  hover:bg-neutral-500/40'>
+              <h2 className='text-2xl text-neutral-800 font-semibold'>
+                BlazorEksiSozlukClone
+              </h2>
+            </div>
+          </div>
+        </a>
+      </div>
       <h2 className='text-3xl text-gray-400 font-semibold mb-8 mt-16 pb-2'>
         C# DESKTOP PROJECT
       </h2>

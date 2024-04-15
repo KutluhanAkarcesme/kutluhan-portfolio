@@ -53,6 +53,10 @@ code {
   background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20221123153249/SkillsRequiredtoBecomeaBackendDeveloper.png);
 }
 
+.mvcBlogProjectImage {
+  background-image: url(./assets/images/MVCBlogProjectSS.png);
+}
+
 .giyimtekImage {
   background-image: url(./assets/images/giyimtek.png);
 }
