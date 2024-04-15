@@ -1,6 +1,6 @@
 import profilphoto from '../assets/images/background.jpeg';
 import SocialMedia from '../common/SocialMedia';
-import cv from '../assets/files/KutluhanAkarcesmeCVGuncel.pdf';
+import cv from '../assets/files/KutluhanAkarcesmeCV.pdf';
 import { useEffect, useState } from 'react';
 
 const Home = () => {
